@@ -2,4 +2,10 @@
     .header {
         padding: 26px;
     }
+    .restaraunt-features {
+        padding-top: 200px;
+    }
+    .video-features {
+        top: -265px;
+    }
 }

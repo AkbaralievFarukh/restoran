@@ -93,13 +93,9 @@
 
 .video-features {
     position: absolute;
-    left: 50%; /* Размещаем элемент по горизонтальной оси в центре контейнера */
-    transform: translateX(-50%); /* Корректируем положение элемента влево на половину его ширины */
-    color: #fff;
-    text-align: center;
-    top: -260px;
     max-width: 920px;
     width: 100%;
+    top: -360px;
 }
 
 .restaraunt-features .row p {
