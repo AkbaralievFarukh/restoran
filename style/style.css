@@ -85,14 +85,11 @@
     background: #F9F7F7;
     padding-top: 330px;
     position: relative;
+    padding-bottom: 90px;
 }
 
-.restaraunt-features .container {
-    
-}
 
 .video-features {
-    position: absolute;
     max-width: 920px;
     width: 100%;
     top: -360px;
@@ -103,4 +100,42 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 135%; /* 18.9px */
+}
+
+/* gallery */
+
+.gallery {
+    margin-top: 120px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    }
+    
+.grid-wrapper div:nth-child(1) {
+    grid-area: 1 / 1 / 5 / 4;
+}
+
+.grid-wrapper div:nth-child(2) {
+    grid-area: 1 / 4 / 5 / 9;
+}
+
+.grid-wrapper div:nth-child(3){
+    grid-area: 1 / 9 / 5 / 13;
+}
+
+.grid-wrapper div:nth-child(6) {
+    grid-area: 5 / 8 / 9 / 13;
+}
+
+.grid-wrapper div:nth-child(5){
+    grid-area: 9 / 8 / 13 / 13;
+}
+
+.grid-wrapper div:nth-child(4){
+    grid-area: 5 / 1 / 13 / 8;
 }
